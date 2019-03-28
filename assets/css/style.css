@@ -1,0 +1,115 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    color: #777777;  
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/qbkls.png");
+}
+
+.topBar {
+    background-color: white;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.myName {
+    display: inline-block;
+    background-color: #4aaaa5;
+    padding: 20px;
+    color: white;
+    margin: 0px;
+    position: relative;
+    left: -20px;
+}
+
+.tab1, .tab2, .tab3 {
+    float: right;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #777777;
+    /* margin: 0px;
+    position: relative;
+    top: 13px;
+    right: -20px; */
+}
+
+.tab1:hover, .tab2:hover, .tab3:hover {
+    cursor: pointer;
+    background-color: #4aaaa5;
+    padding: 26px;
+    color: white;
+    position: relative;
+    bottom: 23px;
+}
+
+a:-webkit-any-link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.greyline {
+    padding: 1px;
+    background-color: grey;
+    display: block;
+}
+
+#aboutMe {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.content {
+    background-color: beige;
+    width: 960px;
+    position: relative;
+    margin: 20 auto;
+    padding: 5px 20px;
+}
+
+.headshot {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0px 10px 0px 0px;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.tech {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.greek, .latin {
+    display: inline-block;
+    margin: 0 auto;
+    width: 50px;
+}
+
+.tealline {
+    background-color: #4aaaa5;
+    padding: 3px;
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
+}
+
+footer {
+    background-color: #666666;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
