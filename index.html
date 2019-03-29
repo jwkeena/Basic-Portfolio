@@ -19,8 +19,8 @@
 </header>
 </div>
 
+<div id="all">
     <div class = "greyline"></div>
-
 
     <article class = "content">
         <h1 id = "about-me">About Me</h1> 
@@ -29,7 +29,7 @@
         &nbsp; <a href="https://nashuacc.academia.edu/JustinKeena" target="_blank"><img class = "logo3" src="https://a.academia-assets.com/images/academia-logo-redesign-2015-A.svg"></a>
         <hr>
         <img class = "headshot" src = "assets/images/Headshot1.jpg">
-        <p>I am a front-end web developer, philosopher, and Classicist based in Manchester, New Hampshire. 
+        <p">I am a front-end web developer, philosopher, and Classicist based in Manchester, New Hampshire. 
             My languages of choice are JavaScript, HTML, CSS, Latin, and Ancient Greek. I have
             years of experience teaching undergraduates, studying the humanities, writing and 
             editing papers, and, more recently, coding web applications. I have an eye for detail, 
@@ -37,7 +37,7 @@
             and an interest in making precise, syntactical, logical sense. 
         </p>
 
-        <p>I am currently enrolled at the University of New Hampshire's <a id="text-link3" href=" https://codingbootcamp.unh.edu/" target="_blank"
+        <p>I am currently enrolled at the University of New Hampshire's <a id="text-link3" class = "all" href=" https://codingbootcamp.unh.edu/" target="_blank"
             >Full Stack Web Development</a> program, learning a range of technologies including Git, jQuery, Node.js, Express.js,
             React.js, MongoDB, and MySQL. My previous academic training includes a Master of Studies 
             in Ancient Philosophy from the University of Oxford, a Master of Arts in English, 
@@ -50,10 +50,9 @@
         <p> When I'm not coding and learning new technologies at UNH, you can find me teaching 
             Ancient Greek Philosophy at <a id = "text-link1" href="https://www.nashuacc.edu/academics/honors-program" target="_blank">
             Nashua Community College</a>, or at home playing yet another round of the mesmerizing and beautiful 
-            <a id = "text-link2" href = "#" onclick="changeBackground">Tetris Effect</a>...when my family lets me.
+            <a id = "text-link2" href = "#" onclick="startVideo();">Tetris Effect</a>...when my family lets me.
         </p>  
     </article>
-
     <br>
 
     <div class= "center">
@@ -64,6 +63,13 @@
 
 <footer>
 </footer>
+
+</div>
+
+<div class="bg-video">
+    <div class="overlay"></div>
+    <div id="player"></div>
+</div>
 
 <!--linking Javascript-->
 <script type="text/javascript" src="javascript.js"></script> 
