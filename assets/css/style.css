@@ -4,7 +4,7 @@ body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/qbkls.png");
 }
 
-.topBar {
+.top-bar {
     background-color: white;
 }
 
@@ -14,7 +14,7 @@ header {
     margin: 0 auto;
 }
 
-.myName {
+.my-name {
     display: inline-block;
     background-color: #4aaaa5;
     padding: 20px;
@@ -29,14 +29,9 @@ header {
     padding: 0px 20px;
     text-decoration: none;
     color: #777777;
-    /* margin: 0px;
-    position: relative;
-    top: 13px;
-    right: -20px; */
 }
 
 .tab1:hover, .tab2:hover, .tab3:hover {
-    cursor: pointer;
     background-color: #4aaaa5;
     padding: 26px;
     color: white;
@@ -53,23 +48,47 @@ a:hover {
     color: white;
 }
 
+#text-link1:hover, #text-link2:hover, #text-link3:hover {
+    color: #4aaaa5;
+}
+
+#text-link1, #text-link2, #text-link3 {
+text-decoration: underline;
+}
+
 .greyline {
     padding: 1px;
     background-color: grey;
     display: block;
 }
 
-#aboutMe {
+#about-me {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+}
 
+.logo1 {
+    width: 45px;
+    height: 45px;
+    display: inline;
+    position: relative;
+    top: 9px;
+}
+
+.logo2, .logo3 {
+    width: 25px;
+    height: 25px;
+    display: inline;
 }
 
 .content {
     background-color: beige;
     width: 960px;
     position: relative;
-    margin: 20 auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
     padding: 5px 20px;
 }
 
@@ -98,12 +117,102 @@ a:hover {
     width: 50px;
 }
 
-.tealline {
+/* #project1:hover #label1 {
+    transform: rotate(10deg);
+} */
+
+#label1:hover, #label2:hover, #label3:hover,
+#label4:hover, #label5:hover, #label6:hover {
+    opacity: .6;
+}
+
+#label1 {
+    position: absolute;
+    padding: 5px 20px 5px 20px;
     background-color: #4aaaa5;
-    padding: 3px;
-    position: fixed;
-    bottom: 30px;
-    width: 100%;
+    color: white;
+    bottom: 251px;
+    right: 68.24%;
+    z-index: 10;
+    -webkit-transition: .5; /* Safari */
+    transition: .5s;
+}
+
+#label2 {
+    position: absolute;
+    padding: 5px 12px 5px 11px;
+    background-color: #4aaaa5;
+    color: white;
+    bottom: 251px;
+    z-index: 10;
+    right: 36.1%;
+    -webkit-transition: .5; /* Safari */
+    transition: .5s;
+}
+
+#label3 {
+    position: absolute;
+    padding: 5px 68px 5px 69px;
+    background-color: #4aaaa5;
+    color: white;
+    bottom: 251px;
+    z-index: 10;
+    right: 4.16%;
+    -webkit-transition: .5; /* Safari */
+    transition: .5s;
+}
+
+#label4 {
+    position: absolute;
+    padding: 5px 16px 5px 16px;
+    background-color: #4aaaa5;
+    color: white;
+    bottom: 11px;
+    right: 68.2%;
+    z-index: 10;
+    -webkit-transition: .5; /* Safari */
+    transition: .5s;
+}
+
+#label5 {
+    position: absolute;
+    padding: 5px 49px 5px 48px;
+    background-color: #4aaaa5;
+    color: white;
+    bottom: 11px;
+    z-index: 10;
+    right: 36.2%;
+    -webkit-transition: .5; /* Safari */
+    transition: .5s;
+}
+
+#label6 {
+    position: absolute;
+    padding: 5px 53px 5px 70px;
+    background-color: #4aaaa5;
+    color: white;
+    bottom: 11px;
+    z-index: 10;
+    right: 4%;
+    -webkit-transition: .5; /* Safari */
+    transition: .5s;
+}
+
+#project1, #project2, #project3,
+#project4, #project5, #project6 {
+    width: 280px;
+    height: 200px;
+    border: 8px solid goldenrod;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    -webkit-transition: .5; /* Safari */
+    transition: .5s;
+}
+
+#project1:hover, #project2:hover, #project3:hover, 
+#project4:hover, #project5:hover, #project6:hover {
+    transform: rotate(10deg);
 }
 
 footer {
@@ -112,4 +221,60 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: 8px solid #4aaaa5
 }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  .btn {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+ .btn:hover {
+    background-color: teal;
+  }
+
+  .bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .bg-video #player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+  }
+  
+  .bg-video .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+  }

@@ -1,7 +1,7 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Justin Keena's Portfolio</title>
+    <title>Profile</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
@@ -10,9 +10,9 @@
 </head>
 <body>
 
-<div class = "topBar">
+<div class = "top-bar">
 <header class = "header">
-    <h2 class = "myName">Justin Keena</h1>
+    <h2 class = "my-name">Justin Keena</h1>
     <h4 class = "tab1"><a href="contact.html">Contact</a></h4>
     <h4 class = "tab2"><a href="portfolio.html">Portfolio</a></h4>
     <h4 class = "tab3">About</h4>
@@ -22,10 +22,13 @@
     <div class = "greyline"></div>
 
 
-    <article class = "content"><div class = "background"></div>
-        <h1 id = "aboutMe">About Me</h1>
+    <article class = "content">
+        <h1 id = "about-me">About Me</h1> 
+        <a href = "https://github.com/jwkeena?tab=repositories" target="_blank"><img class = "logo1" src="assets/images/github.png"></a>
+        <a href = "https://www.linkedin.com/in/justin-keena" target="_blank"><img  class = "logo2" src="assets/images/linkedin.png"></a>
+        &nbsp; <a href="https://nashuacc.academia.edu/JustinKeena" target="_blank"><img class = "logo3" src="https://a.academia-assets.com/images/academia-logo-redesign-2015-A.svg"></a>
         <hr>
-        <a href="https://github.com/jwkeena?tab=repositories" target="_blank"><img class = "headshot" src = "assets/images/Headshot1.jpg"></a>
+        <img class = "headshot" src = "assets/images/Headshot1.jpg">
         <p>I am a front-end web developer, philosopher, and Classicist based in Manchester, New Hampshire. 
             My languages of choice are JavaScript, HTML, CSS, Latin, and Ancient Greek. I have
             years of experience teaching undergraduates, studying the humanities, writing and 
@@ -34,8 +37,8 @@
             and an interest in making precise, syntactical, logical sense. 
         </p>
 
-        <p>I am currently enrolled at the University of New Hampshire's Full Stack Web Development
-            program, learning a range of technologies including Git, jQuery, Node.js, Express.js,
+        <p>I am currently enrolled at the University of New Hampshire's <a id="text-link3" href=" https://codingbootcamp.unh.edu/" target="_blank"
+            >Full Stack Web Development</a> program, learning a range of technologies including Git, jQuery, Node.js, Express.js,
             React.js, MongoDB, and MySQL. My previous academic training includes a Master of Studies 
             in Ancient Philosophy from the University of Oxford, a Master of Arts in English, 
             and a Bachelor of Arts in Philosophy and Classics. If you want a developer who 
@@ -44,11 +47,14 @@
             and the rhetoric of online content, I'm your best choice.
         </p>
 
-        <p> When I'm not coding and learning new technologies at UNH, you can find me sharing my 
-            academic work on Academia.edu, teaching Ancient Greek Philosophy at Nashua Community 
-            College, or at home playing yet another round of the mesmerizing and beautiful Tetris Effect.
+        <p> When I'm not coding and learning new technologies at UNH, you can find me teaching 
+            Ancient Greek Philosophy at <a id = "text-link1" href="https://www.nashuacc.edu/academics/honors-program" target="_blank">
+            Nashua Community College</a>, or at home playing yet another round of the mesmerizing and beautiful 
+            <a id = "text-link2" href = "#" onclick="changeBackground">Tetris Effect</a>...when my family lets me.
         </p>  
     </article>
+
+    <br>
 
     <div class= "center">
         <img class="tech" src="https://unixtitan.net/images/html-transparent-javascript-2.png">
@@ -56,11 +62,10 @@
         <a href="http://archives.nd.edu/latgramm.htm" target="_blank"><img class="latin" src="assets/images/spqr.png"></a>
     </div>
 
-    <div class = "tealline"></div>
-
-
 <footer>
 </footer>
 
+<!--linking Javascript-->
+<script type="text/javascript" src="javascript.js"></script> 
 </body>
 </html>
